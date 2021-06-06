@@ -4,31 +4,6 @@
 /* ============================================= */
 /* Utilities Imports */
 /* ============================================= */
-.btn {
-  text-align: center;
-  text-transform: uppercase;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  margin-bottom: 1em;
-}
-
-.nav-link {
-  list-style-type: none;
-  text-align: center;
-  border-radius: 5px;
-  padding: 10px 0;
-}
-
-.blockquote {
-  padding-left: 20px;
-  margin-left: 20px;
-  line-height: 1.3em;
-  font-size: 1.5em;
-  font-style: italic;
-  font-weight: 300;
-}
-
 /* ============================================= */
 /* Base Imports */
 /* ============================================= */
@@ -39,6 +14,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+/* line 11, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_normalize.scss */
 html {
   line-height: 1.15;
   /* 1 */
@@ -51,6 +27,7 @@ html {
 /**
  * Remove the margin in all browsers.
  */
+/* line 23, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_normalize.scss */
 body {
   margin: 0;
 }
@@ -58,6 +35,7 @@ body {
 /**
  * Render the `main` element consistently in IE.
  */
+/* line 31, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_normalize.scss */
 main {
   display: block;
 }
@@ -66,6 +44,7 @@ main {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
+/* line 40, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -77,6 +56,7 @@ h1 {
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
+/* line 53, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_normalize.scss */
 hr {
   box-sizing: content-box;
   /* 1 */
@@ -90,6 +70,7 @@ hr {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
+/* line 64, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_normalize.scss */
 pre {
   font-family: monospace, monospace;
   /* 1 */
@@ -102,6 +83,7 @@ pre {
 /**
  * Remove the gray background on active links in IE 10.
  */
+/* line 76, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_normalize.scss */
 a {
   background-color: transparent;
 }
@@ -110,6 +92,7 @@ a {
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
+/* line 85, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_normalize.scss */
 abbr[title] {
   border-bottom: none;
   /* 1 */
@@ -122,6 +105,7 @@ abbr[title] {
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
+/* line 95, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_normalize.scss */
 b,
 strong {
   font-weight: bolder;
@@ -131,6 +115,7 @@ strong {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
+/* line 105, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_normalize.scss */
 code,
 kbd,
 samp {
@@ -143,6 +128,7 @@ samp {
 /**
  * Add the correct font size in all browsers.
  */
+/* line 116, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_normalize.scss */
 small {
   font-size: 80%;
 }
@@ -151,6 +137,7 @@ small {
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
+/* line 125, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -159,10 +146,12 @@ sup {
   vertical-align: baseline;
 }
 
+/* line 133, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
 
+/* line 137, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_normalize.scss */
 sup {
   top: -0.5em;
 }
@@ -172,6 +161,7 @@ sup {
 /**
  * Remove the border on images inside links in IE 10.
  */
+/* line 148, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_normalize.scss */
 img {
   border-style: none;
 }
@@ -182,6 +172,7 @@ img {
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
  */
+/* line 160, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_normalize.scss */
 button,
 input,
 optgroup,
@@ -201,6 +192,7 @@ textarea {
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
+/* line 176, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_normalize.scss */
 button,
 input {
   /* 1 */
@@ -211,6 +203,7 @@ input {
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
+/* line 186, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_normalize.scss */
 button,
 select {
   /* 1 */
@@ -220,6 +213,7 @@ select {
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
+/* line 195, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_normalize.scss */
 button,
 [type="button"],
 [type="reset"],
@@ -230,6 +224,7 @@ button,
 /**
  * Remove the inner border and padding in Firefox.
  */
+/* line 206, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_normalize.scss */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -241,6 +236,7 @@ button::-moz-focus-inner,
 /**
  * Restore the focus styles unset by the previous rule.
  */
+/* line 218, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_normalize.scss */
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
@@ -251,6 +247,7 @@ button:-moz-focusring,
 /**
  * Correct the padding in Firefox.
  */
+/* line 229, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_normalize.scss */
 fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
@@ -261,6 +258,7 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
+/* line 240, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_normalize.scss */
 legend {
   box-sizing: border-box;
   /* 1 */
@@ -279,6 +277,7 @@ legend {
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
+/* line 253, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_normalize.scss */
 progress {
   vertical-align: baseline;
 }
@@ -286,6 +285,7 @@ progress {
 /**
  * Remove the default vertical scrollbar in IE 10+.
  */
+/* line 261, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_normalize.scss */
 textarea {
   overflow: auto;
 }
@@ -294,6 +294,7 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
+/* line 270, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_normalize.scss */
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
@@ -305,6 +306,7 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
+/* line 280, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_normalize.scss */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -314,6 +316,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
+/* line 290, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_normalize.scss */
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -324,6 +327,7 @@ textarea {
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
+/* line 299, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_normalize.scss */
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
@@ -332,6 +336,7 @@ textarea {
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
+/* line 308, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_normalize.scss */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
@@ -344,6 +349,7 @@ textarea {
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
+/* line 320, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_normalize.scss */
 details {
   display: block;
 }
@@ -351,6 +357,7 @@ details {
 /*
  * Add the correct display in all browsers.
  */
+/* line 328, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_normalize.scss */
 summary {
   display: list-item;
 }
@@ -360,6 +367,7 @@ summary {
 /**
  * Add the correct display in IE 10+.
  */
+/* line 339, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_normalize.scss */
 template {
   display: none;
 }
@@ -367,40 +375,54 @@ template {
 /**
  * Add the correct display in IE 10.
  */
+/* line 347, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_normalize.scss */
 [hidden] {
   display: none;
 }
 
+/* line 3, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_typography.scss */
 * {
   font-family: "Lato", sans-serif;
   color: #777;
   box-sizing: border-box;
 }
 
+/* line 9, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_typography.scss */
 p {
   line-height: 1.45em;
 }
 
+/* line 13, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_typography.scss */
 a {
   text-decoration: none;
 }
 
+/* line 19, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_typography.scss */
 .headline-primary {
   color: #58e1c1;
   margin-left: 10px;
 }
 
+/* line 24, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_typography.scss */
 .headline-secondary {
   font-weight: 300;
   color: #777;
 }
 
+/* line 29, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_typography.scss */
 .link {
   color: #51ddfc;
   font-weight: 700;
 }
 
+/* line 34, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/base/_typography.scss */
 .blockquote {
+  padding-left: 20px;
+  margin-left: 20px;
+  line-height: 1.3em;
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: 300;
   border-left: 8px solid #58e1c1;
   border-radius: 5px;
 }
@@ -408,61 +430,84 @@ a {
 /* ============================================= */
 /* Components Imports */
 /* ============================================= */
+/* line 2, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_buttons.scss */
+.btn {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
+
+/* line 11, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_buttons.scss */
 .btn {
   margin-top: 15px;
   width: 100%;
   padding: 10px 0;
 }
 
+/* line 18, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_buttons.scss */
 .default {
   background-color: #51ddfc;
 }
 
+/* line 4, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/utilities/_mixins.scss */
 .default:hover {
   background-color: #9cecfd;
   transition: background ease-in 0.3s;
 }
 
+/* line 22, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_buttons.scss */
 .error {
   background-color: #e4757a;
 }
 
+/* line 4, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/utilities/_mixins.scss */
 .error:hover {
   background-color: #f1b5b8;
   transition: background ease-in 0.3s;
 }
 
+/* line 26, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_buttons.scss */
 .info {
   background-color: #927bc1;
 }
 
+/* line 4, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/utilities/_mixins.scss */
 .info:hover {
   background-color: #bdafd9;
   transition: background ease-in 0.3s;
 }
 
+/* line 30, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_buttons.scss */
 .success {
   background-color: #63cc82;
 }
 
+/* line 4, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/utilities/_mixins.scss */
 .success:hover {
   background-color: #9ddfb0;
   transition: background ease-in 0.3s;
 }
 
+/* line 34, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_buttons.scss */
 .warning {
   background-color: #fd7856;
 }
 
+/* line 4, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/utilities/_mixins.scss */
 .warning:hover {
   background-color: #feb4a2;
   transition: background ease-in 0.3s;
 }
 
+/* line 1, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_forms.scss */
 .form {
   flex-basis: 100%;
 }
 
+/* line 5, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_forms.scss */
 .input {
   display: block;
   width: 94%;
@@ -472,6 +517,7 @@ a {
   border-bottom: 5px solid #58e1c1;
 }
 
+/* line 14, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_forms.scss */
 .hidden {
   position: absolute;
   left: -10000px;
@@ -481,34 +527,49 @@ a {
   overflow: hidden;
 }
 
+/* line 2, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_navigation.scss */
 .nav {
+  list-style-type: none;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 0;
   padding-left: 0;
   flex-basis: 100%;
   display: flex;
   flex-direction: column;
 }
 
+/* line 12, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_navigation.scss */
 .nav-link {
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 0;
+  display: block;
+  width: 100%;
   transition: background-color .2s ease-in-out,  color .2s ease-in-out;
 }
 
+/* line 23, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_navigation.scss */
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
 }
 
+/* line 2, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_images.scss */
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
+/* line 4, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_images.scss */
 img .img-avatar {
   margin-top: 10px;
   max-width: 100%;
   max-height: 100%;
 }
 
+/* line 11, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_images.scss */
 .img-frame {
   margin-top: 10px;
   max-width: 100%;
@@ -516,22 +577,26 @@ img .img-avatar {
   border: 1px solid #ccc;
 }
 
+/* line 17, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_images.scss */
 .img-logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
+/* line 1, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_grid.scss */
 .container {
   padding: 0 10px;
 }
 
+/* line 5, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_grid.scss */
 .row {
   display: flex;
   flex-direction: column;
   padding: 1em 10px;
 }
 
+/* line 11, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_grid.scss */
 [class^=col] {
   margin-top: 10px;
   flex-basis: 100%;
@@ -540,114 +605,146 @@ img .img-avatar {
   border-radius: 5px;
 }
 
+/* line 20, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_grid.scss */
 .theme.col-3 {
   background-color: #deb2ee;
 }
 
+/* line 20, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_grid.scss */
 .theme.col-4 {
   background-color: #7ee6fd;
 }
 
+/* line 20, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_grid.scss */
 .theme.col-5 {
   background-color: #88d9a0;
 }
 
+/* line 20, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_grid.scss */
 .theme.col-6 {
   background-color: #4da2bb;
 }
 
+/* line 20, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_grid.scss */
 .theme.col-7 {
   background-color: #ec9fa3;
 }
 
+/* line 20, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_grid.scss */
 .theme.col-8 {
   background-color: #fd9f85;
 }
 
+/* line 20, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_grid.scss */
 .theme.col-12 {
   background-color: #80e8d1;
 }
 
+/* line 25, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_grid.scss */
 .card {
   flex-basis: 100%;
 }
 
 @media (min-width: 768px) {
+  /* line 3, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .container {
     max-width: 1400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
+  /* line 10, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .centered {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
+  /* line 16, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .row {
     flex-direction: row;
   }
+  /* line 20, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   [class^=col] {
     display: flex;
     justify-content: center;
     margin-top: 0;
     align-items: center;
   }
+  /* line 27, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   [class^=col] + [class^=col] {
     margin-left: 10px;
   }
+  /* line 32, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .col-1 {
     flex-basis: calc-percentage(1);
   }
+  /* line 32, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .col-2 {
     flex-basis: calc-percentage(2);
   }
+  /* line 32, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .col-3 {
     flex-basis: calc-percentage(3);
   }
+  /* line 32, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .col-4 {
     flex-basis: calc-percentage(4);
   }
+  /* line 32, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .col-5 {
     flex-basis: calc-percentage(5);
   }
+  /* line 32, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .col-6 {
     flex-basis: calc-percentage(6);
   }
+  /* line 32, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .col-7 {
     flex-basis: calc-percentage(7);
   }
+  /* line 32, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .col-8 {
     flex-basis: calc-percentage(8);
   }
+  /* line 32, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .col-9 {
     flex-basis: calc-percentage(9);
   }
+  /* line 32, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .col-10 {
     flex-basis: calc-percentage(10);
   }
+  /* line 32, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .col-11 {
     flex-basis: calc-percentage(11);
   }
+  /* line 32, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .col-12 {
     flex-basis: calc-percentage(12);
   }
+  /* line 37, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .nav {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
   }
+  /* line 41, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .nav-link {
     flex-basis: 100px;
   }
+  /* line 46, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .btn {
     padding: 10px 30px;
   }
+  /* line 50, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .btn + .btn {
     margin-left: 10px;
   }
+  /* line 54, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .logo {
     margin-left: initial;
     margin-right: initial;
   }
 }
+
+/*# sourceMappingURL=styles.css.map */
