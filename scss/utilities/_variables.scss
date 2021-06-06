@@ -1,0 +1,64 @@
+// ======================================
+//  Variables
+// ======================================
+
+// Base Colors
+
+$color-base: #777;
+
+// Descriptive base colors
+
+$color-primary      : #58e1c1;
+$color-secondary    : #51ddfc;
+
+$sunglo         : #e4757a;
+$coral          : #fd7856;
+$purple-majesty : #927bc1;
+
+$french-lilac    : #deb2ee;
+$anakiwa         : #7ee6fd;
+$bahia           : #88d9a0;
+$fountain-blue   : #4da2bb;
+$sea-pink        : #ec9fa3;
+$vivid-tangerine : #fd9f85;
+$emerald         : #63cc82;
+$riptide         : #80e8d1;
+
+// Map - Button Colors
+
+$button-colors: (
+   'default'    : $color-secondary,
+   'error'      : $sunglo,
+   'info'       : $purple-majesty,
+   'success'    : $emerald,
+   'warning'    : $coral,
+);
+
+// Map - Column Colors
+
+$column-colors: (
+    'col-1'     : $purple-majesty,
+    'col-2'     : $coral,
+    'col-3'     : $french-lilac,
+    'col-4'     : $anakiwa,
+    'col-5'     : $bahia,
+    'col-6'     : $fountain-blue,
+    'col-7'     : $sea-pink,
+    'col-8'     : $vivid-tangerine,
+    'col-9'     : $sunglo,
+    'col-10'    : $emerald,
+    'col-11'    : $color-secondary,
+    'col-12'    : $riptide,
+);
+
+// Fonts
+$font-stack-primary: 'Lato', sans-serif;
+
+
+//Breakpoints
+
+$breakpoints:(
+  'med':768px,
+  'lg':992px,
+);
+
