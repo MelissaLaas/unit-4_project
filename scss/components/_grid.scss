@@ -15,10 +15,12 @@
     padding: 10px;
     border-radius: 5px;
   }
-  
-  .theme {
-    @include bg-colors($column-colors);
-  }
+
+ @each $theme, $color in $themes {
+   .theme.#{$theme} {
+     background-color: $color;
+   }
+ }
   
   .card {
     flex-basis: 100%;

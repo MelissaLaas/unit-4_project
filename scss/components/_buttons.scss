@@ -7,5 +7,24 @@
     text-transform: uppercase;
     border-radius: 5px;
 
-    @include bg-colors($button-colors);
-  }
+}
+
+.default {
+  @include button(map-get($ui-color, 'default' ));
+}
+
+.error {
+  @include button(map-get($ui-color, 'error' ));
+}
+
+.info {
+  @include button(map-get($ui-color, 'info' ));    
+}
+
+.success {
+  @include button(map-get($ui-color, 'success' ));  
+}
+
+.warning {
+  @include button(map-get($ui-color, 'warning'));  
+}
