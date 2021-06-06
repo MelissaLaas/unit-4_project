@@ -3,7 +3,9 @@
   background-color: $color;
       &:hover{
           background-color: lighten($color, 15%);
+          transition: background ease-in 0.3s;
       }
+  
   }
 
 // Mixin images

@@ -1,0 +1,28 @@
+
+//Placeholder for buttons
+%btn{
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1em;
+  }
+
+// Placeholder for nav-items
+%nav-style{
+    list-style-type: none;
+    text-align: center;
+    border-radius: 3px;
+    padding: .5em;
+    font-size: .9em;
+}
+
+//Placeholder blockquote style
+%block-q{
+    padding-left: .8em;
+    line-height: 1.3em;
+    font-size: 1.45em;
+    font-style: italic;
+    font-weight: 700;
+}
