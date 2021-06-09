@@ -674,73 +674,73 @@ img .img-avatar {
   [class^=col] + [class^=col] {
     margin-left: 10px;
   }
-  /* line 32, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
+  /* line 31, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .col-1 {
-    flex-basis: calc-percentage(1);
+    flex-basis: 8.33%;
   }
-  /* line 32, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
+  /* line 35, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .col-2 {
-    flex-basis: calc-percentage(2);
+    flex-basis: 16.67%;
   }
-  /* line 32, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
+  /* line 39, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .col-3 {
-    flex-basis: calc-percentage(3);
+    flex-basis: 25.00%;
   }
-  /* line 32, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
+  /* line 43, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .col-4 {
-    flex-basis: calc-percentage(4);
+    flex-basis: 33.33%;
   }
-  /* line 32, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
+  /* line 47, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .col-5 {
-    flex-basis: calc-percentage(5);
+    flex-basis: 41.67%;
   }
-  /* line 32, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
+  /* line 51, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .col-6 {
-    flex-basis: calc-percentage(6);
+    flex-basis: 50.00%;
   }
-  /* line 32, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
+  /* line 55, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .col-7 {
-    flex-basis: calc-percentage(7);
+    flex-basis: 58.33%;
   }
-  /* line 32, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
+  /* line 59, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .col-8 {
-    flex-basis: calc-percentage(8);
+    flex-basis: 66.67%;
   }
-  /* line 32, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
+  /* line 63, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .col-9 {
-    flex-basis: calc-percentage(9);
+    flex-basis: 75.00%;
   }
-  /* line 32, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
+  /* line 67, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .col-10 {
-    flex-basis: calc-percentage(10);
+    flex-basis: 83.33%;
   }
-  /* line 32, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
+  /* line 71, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .col-11 {
-    flex-basis: calc-percentage(11);
+    flex-basis: 91.67%;
   }
-  /* line 32, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
+  /* line 75, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .col-12 {
-    flex-basis: calc-percentage(12);
+    flex-basis: 100%;
   }
-  /* line 37, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
+  /* line 79, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .nav {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
   }
-  /* line 41, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
+  /* line 83, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .nav-link {
     flex-basis: 100px;
   }
-  /* line 46, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
+  /* line 88, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .btn {
     padding: 10px 30px;
   }
-  /* line 50, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
+  /* line 92, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .btn + .btn {
     margin-left: 10px;
   }
-  /* line 54, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
+  /* line 96, ../../../../../Users/melissalaas/Desktop/Web-Development/UNIT 4 - Terminal, Git, CSS/unit-4_project/scss/components/_media-queries.scss */
   .logo {
     margin-left: initial;
     margin-right: initial;
